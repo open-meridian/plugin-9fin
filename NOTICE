@@ -1,0 +1,9 @@
+meridian-9fin
+Copyright 2026 Societal Lab Inc.
+
+Licensed under the Apache License, Version 2.0. See LICENSE.
+
+This plugin reads 9fin's APIs with an API client its user holds. It contains
+no data of 9fin's: its sample answers are made up in the shape of 9fin's
+public API documentation. This project is not affiliated with or endorsed
+by 9fin.
