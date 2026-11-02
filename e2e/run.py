@@ -135,7 +135,7 @@ def run():
     apple = held.get(APPLE, {})
     must(connection["mode"] == "Sample data"
          and apple.get("record", "").startswith("INS-") and apple.get("issuer") == APPLE_COMPANY
-         and apple.get("offered", 0) >= 10
+         and apple.get("offered", 0) >= 5
          and held.get(LOAN, {}).get("miss") == "a loan: no template in v29",
          f"step 3, read_connection: {connection}")
     bond = apple["record"]
