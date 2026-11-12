@@ -11,7 +11,10 @@ def test_one_dataset_of_new_issue_prices() -> None:
     assert prices.key == "new_issue_prices" and prices.vendor == "9fin"
     assert list(prices.data_types) == ["meridian.v1.Price"]
     assert prices.price_source_class == "traded"
-    assert prices.licence_default is None
+    # Contract 30 (ruling 1032): 9fin's terms in words, never a licence.
+    assert "no AI model training" in prices.terms_and_pricing
+    assert len(prices.terms_and_pricing) <= 2000
+    assert prices.gap_recovery == "backfill" and not prices.sessions_calendar_id
 
 
 def test_the_securities_are_isins() -> None:

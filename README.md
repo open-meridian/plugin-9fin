@@ -1,8 +1,8 @@
 # meridian-9fin
 
 9fin's bond data in an [Open Meridian](https://open-meridian.dev)
-deployment: an Apache-2.0 plugin, in Python on the open-meridian SDK 0.35.3
-(contract v29), built from 9fin's public API documentation.
+deployment: an Apache-2.0 plugin, in Python on the open-meridian SDK 0.36.0
+(contract 30), built from 9fin's public API documentation.
 
 It holds two roles:
 
