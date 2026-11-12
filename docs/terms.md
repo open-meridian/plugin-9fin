@@ -3,8 +3,9 @@
 ## Whose terms
 
 The terms under which you use 9fin's data are between you and 9fin, in your
-agreement or order form with it. This plugin declares no default licence;
-the deployment admin sets the dataset's licence on the Data sources page.
+agreement or order form with it. The dataset describes these terms in words
+on the Data sources page; the plugin declares no licence: the deployment
+admin sets the dataset's licence there.
 What follows describes 9fin's published terms in plain words, as read on 30
 October 2026 (9fin's terms of service v1.0, effective 12 May 2026, and its
 data services trial terms), to help you and your agent decide; it is not
